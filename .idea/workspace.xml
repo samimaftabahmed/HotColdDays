@@ -7,29 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceda6aaa-4a89-4413-a051-2f7932fef444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HotColdDays_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotColdDays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotColdDays_jar/HotColdDays.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotColdDays_jar/WeatherData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samhad/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samhad/MaxTempMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samhad/MinTempMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samhad/TemperatureReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WeatherData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kibakibi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WeatherData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/samhad/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/samhad/MaxTempMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/samhad/MinTempMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/samhad/TemperatureReducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Kibakibi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/samhad/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samhad/App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,8 +109,16 @@
       <workItem from="1568648528606" duration="3335000" />
       <workItem from="1568698725985" duration="6582000" />
       <workItem from="1568710520276" duration="1561000" />
-      <workItem from="1568723121323" duration="1338000" />
+      <workItem from="1568723121323" duration="3663000" />
     </task>
+    <task id="LOCAL-00001" summary="Working commit but Combiner not working">
+      <created>1568724494742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568724494742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +134,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Working commit but Combiner not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working commit but Combiner not working" />
   </component>
 </project>

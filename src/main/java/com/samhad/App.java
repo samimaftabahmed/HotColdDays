@@ -10,6 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
@@ -32,6 +33,7 @@ public class App extends Configured implements Tool {
 
     /**
      * Changes the format of date string from yyyyMMdd to MM-dd-yyyy.
+     *
      * @param inputDate a date String of the form yyyyMMdd
      * @return String
      */
@@ -48,6 +50,14 @@ public class App extends Configured implements Tool {
     public int run(String[] args) throws Exception {
 
         Job job = Job.getInstance(this.getConf(), "Hot or Cold Day Job");
+
+        String[] otherArgs = new GenericOptionsParser(this.getConf(), args).getRemainingArgs();
+
+        if (otherArgs.length != 2) {
+            System.err.println("Usage: hadoop jar HotColdDays.jar </input-path> </output-path>");
+            return 2;
+        }
+
         job.setJarByClass(App.class);
 
         job.setMapOutputKeyClass(Text.class);
